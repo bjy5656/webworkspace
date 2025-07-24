@@ -1,0 +1,101 @@
+/* semanticTask.css 백정이 */
+* {
+            color: white;
+            font-size: 20;
+            /* font-weight: bolder; */
+        }
+        header {
+            background-color: rgb(241, 74, 96);
+            height: 100px;
+        }
+        .header--text-box {
+            height: 50px;
+            text-align: center;
+            line-height: 50px;
+        }
+        nav {
+            background-color: blue;
+            height: 50px;
+            display: flex;
+
+        }
+        ul {
+            padding: 0px;
+            margin: 0px;
+            display: flex;
+            align-items: center;
+        }
+        li {
+            display: inline;
+            margin: 0px 10px;
+        }
+        .main-container {
+            display: flex;
+            height: 500px;
+        }
+        aside {
+            background-color: brown;
+            display: inline-block;
+            width: 10%;
+        }
+        .aside--text-box {
+            text-align: center;
+            line-height: 500px;
+        }
+        main {
+            background-color: rgb(123, 253, 83);
+            display: inline-block;
+            display: flex;
+            flex: 1;
+            flex-direction: column;
+            align-items: center;
+        }
+        .main--text-box {
+            height: 50px;
+            width: 100%;
+            text-align: left;
+            line-height: 50px;
+        }
+        .section--text-box {
+            height: 40px;
+            line-height: 40px;
+        }
+        .section01,
+        .section02 {
+            background-color: blueviolet;
+            margin: 10px;
+            width: 500px;
+
+        }
+        .section01--article-container,
+        .section02--article-container {
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+        }
+        /* .section01--article-container{
+          padding: 20px;
+        } */
+
+        .section01--article,
+        .section02--article {
+            background-color: rgb(127, 240, 255);
+            display: inline-block;
+            height: 40px;
+        }
+        .section01--article {
+            width: 80px;
+            margin: 0px 0px 20px;
+        }
+        .section02--article {
+            width: 200px;
+            margin: 10px;
+        }
+        .article--text-box{
+          text-align: center;
+          line-height: 40px;
+        }
+        footer {
+            background-color: black;
+            height: 100px;
+        }
